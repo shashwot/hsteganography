@@ -8,8 +8,8 @@ a = Analysis(
     ['hstego.py'],
     pathex=[],
     binaries=[
-       ('build/lib.linux-x86_64-3.10/hstego_jpeg_toolbox_extension.cpython-310-x86_64-linux-gnu.so', '.'), 
-       ('build/lib.linux-x86_64-3.10/hstego_stc_extension.cpython-310-x86_64-linux-gnu.so', '.')
+       ('build/lib.linux-x86_64-cpython-310/hstego_jpeg_toolbox_extension.cpython-310-x86_64-linux-gnu.so', '.'), 
+       ('build/lib.linux-x86_64-cpython-310/hstego_stc_extension.cpython-310-x86_64-linux-gnu.so', '.')
     ],
     datas=[('resources', 'resources')],
     hiddenimports=['PIL._tkinter_finder'],
